@@ -103,7 +103,7 @@ class Base_Commands(commands.Cog):
     
     @commands.slash_command(description="generation-by-model")
     @commands.has_permissions(administrator=True)
-    async def generation(self,
+    async def generation(self, 
                         inter: disnake.ApplicationCommandInteraction,
                         prompt: str = commands.Param(
                             name = 'request',
