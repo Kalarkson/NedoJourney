@@ -111,7 +111,7 @@ class Base_Commands(commands.Cog):
                         ),
                         negative_prompt: str = commands.Param(
                             name = 'negative-prompt',
-                            description = 'What colors and techniques the model should not use when generating an image.',
+                            description = 'What colors and techniques should a model not use when creating a comma-separated image.',
                             default = None
                         ),
                         quantity: commands.Range[int, 1, 4] = commands.Param(
