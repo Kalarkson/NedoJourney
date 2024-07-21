@@ -8,13 +8,13 @@ MidJourney is a discord bot similar to Midjourney that uses the kandinsky model 
 2. Install the requiremets
 3. go to the [Discord developers](https://discord.com/developers/applications) site and create a discord bot
 4. go to the [fusionbrain](https://fusionbrain.ai/keys/) site and create an api token
-5. create and fill in the necessary data in the .env file
+5. create and fill in the necessary data in the `.env` file
 ```
 BOT_TOKEN = 
 API_KEY = 
 API_SECRET = 
 ```
-6. Run the main.py file
+6. Run the `main.py` file
 
 # how it works?
 
